@@ -1,0 +1,62 @@
+body{
+    font-family: "Montserrat", serif;
+    --blue: #091057;
+    --white: #ffe1e2;
+    background-color: var(--white);
+    overflow-x: hidden;
+    height: fit-content;
+}
+
+#about.flex-container{
+    display: flex;
+    padding: 2vh 2vw;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #091057;
+    column-gap: 20vw;
+}
+
+#about .text{
+    width: 30em;
+    padding: 2em 2em;
+    text-align: center;
+}
+
+
+#about .tit{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#about .but{
+    text-align: center;
+}
+
+#about button{
+    font-size: 0.8rem;
+    color: var(--white);
+    background-color: var(--blue);
+    border-radius: 3px;
+    padding: 1em 3em;
+    font-weight: bold;
+    margin: 1em;
+}
+
+#about .para{
+    font-size: 1.2rem;
+}
+
+#about button:hover{
+    background-color: var(--white);
+    color: var(--blue);
+    border: 2px solid var(--blue);
+}
+
+
+#about button:active{
+    color: var(--white);
+    background-color: var(--blue);
+}
+

@@ -1,0 +1,27 @@
+body{
+    --blue: #091057;
+    --white: #ffe1e2;
+}
+
+#info .grid-container{
+    display: grid;
+    grid-template-columns: 6em 1fr;
+    height: 40vh;
+    margin: 1% 0px 18% 10vw;
+    color: var(--blue);
+    font-size: 1.2rem;
+}
+
+#info .content{
+    margin-bottom: 5%;
+}
+
+#info .tit{
+    font-weight: bold;
+}
+
+@media(max-width:480px){
+    #info .grid-container{
+        grid-template-columns: 1fr;
+    }
+}

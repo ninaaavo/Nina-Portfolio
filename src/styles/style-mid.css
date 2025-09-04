@@ -1,0 +1,103 @@
+body{
+    font-family: "Montserrat", serif;
+    --blue: #091057;
+    --white: #ffe1e2;
+    background-color: var(--white);
+    overflow-x: hidden;
+    height: fit-content;
+}
+
+.mid{
+    position: relative;
+    height: 100vh;
+}
+
+.mid .back{
+    width: 100vw;
+    height: 100vh;  
+    object-fit: cover;
+    z-index: -2;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.mid .a-gif{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.mid .a-box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    z-index: 1;
+    padding: 42vh 10vw;
+    padding-bottom: 0;
+}
+
+.mid .a-box.programmer{
+    padding-top: 38vh;
+}
+.mid .tit{
+    color: var(--white);
+    font-size: 2rem;
+    letter-spacing: 0.6em;
+}
+
+.mid .sub-tit{
+    color: var(--white);
+    font-size: 1rem;
+    letter-spacing: 0.6em;
+    background-color: #00000060;
+}
+
+.mid button{
+    font-size: 0.9rem;
+    background-color: #00000060;
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 3px;
+    padding: 1em 3em;
+    font-weight: bold;
+}
+
+.mid button:hover{
+    background-color: var(--white);
+    color: var(--blue);
+    border: none;
+}
+
+.mid button:active{
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+}
+
+.mid .opacity{
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+
+}
+
+@media (max-width: 480px) and (min-height:6px) {
+    .mid .tit{
+        color: var(--white);
+        font-size: 1.4rem;
+    }
+    
+    .mid button{
+        font-size: 0.6rem;
+    }
+} 

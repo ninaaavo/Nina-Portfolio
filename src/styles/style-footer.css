@@ -1,0 +1,33 @@
+body{
+    font-family: "Montserrat", serif;
+    --blue: #091057;
+    --white: #ffe1e2;
+    background-color: var(--white);
+    overflow-x: hidden;
+    height: fit-content;
+}
+
+#footer{
+    background-color: var(--blue);
+    height: 33vh;
+}
+
+#footer .flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3em;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+}
+
+#footer a{
+    text-decoration: none;
+    padding: 2vh 20px;
+}
+
+#footer a:hover{
+    opacity: 0.6;
+}

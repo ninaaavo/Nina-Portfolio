@@ -1,0 +1,183 @@
+/* 
+blue: #091057
+white: #FFF6E9
+*/
+body{
+  font-family: "Montserrat", serif;
+  --blue: #091057;
+  --white: #ffe1e2;
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+
+/* ================== GLOBAL NAV (all pages except Home) ================== */
+:root { --nav-h: 72px; } /* tweak if your nav is taller/shorter */
+
+#site-nav .navbar{
+  position: sticky;           /* sits at top and scrolls with page */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--white);
+  padding: 20px 0;
+}
+
+#site-nav .bg-body-tertiary{
+  background-color: transparent !important;
+}
+
+#site-nav .navbar-brand{
+  position: static;
+  background-color: var(--blue);
+  width: 2rem;
+  height: 2rem;
+  z-index: 3;
+}
+
+#site-nav .nav-link,
+#title .nav-link{
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: var(--blue) !important;
+  opacity: 0.8;
+}
+
+#site-nav .navbar-collapse .nav-link,
+#title .navbar-collapse .nav-link{
+  font-size: 1rem;
+}
+
+#site-nav .active,
+#title .active{ opacity: 1; }
+
+#site-nav .navbar-collapse,
+#title .navbar-collapse{ margin-top: 10px; }
+
+#site-nav button:focus,
+#title button:focus{ box-shadow: none; }
+
+#site-nav .container-fluid,
+#title .container-fluid{ padding: 0 6%; }
+
+#site-nav .navbar-toggler,
+#title .navbar-toggler{
+  border-color: var(--blue);
+  width: 2rem;
+  height: 1.5rem;
+}
+
+#site-nav button:hover,
+#title button:hover{ background-color: var(--blue); }
+
+/* ================== HOME HERO & NAVBAR (overlay) ================== */
+#title{
+  position: relative;
+  overflow: hidden;
+  background-color: var(--white);
+  height: 100vh;
+}
+
+/* navbar rendered INSIDE #title on Home */
+#title .navbar{
+  position: absolute;         /* overlay */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent !important;
+  z-index: 9999;              /* above hero image/text */
+}
+
+/* give hero text breathing room below overlay nav */
+#title .container-grid{
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;          /* adjust to your nav height */
+  /* background-image: url(./final-imgs/hair-blowing-1.png); */
+  background-size: 140vw;
+  background-position: 35% bottom;
+  background-repeat: no-repeat;
+}
+
+/* dropdown shared styles */
+.dropdown-menu{
+  --bs-dropdown-bg: transparent;
+  --bs-dropdown-border-color: transparent;
+  z-index: 4;
+  padding: 0;
+}
+
+.dropdown-item{
+  color: red !important;
+  background-color: var(--white);
+}
+
+#title .dropdown-item:hover,
+#site-nav .dropdown-item:hover{ color: green !important; }
+
+svg:hover{ fill: var(--white); }
+svg:active{ fill: grey; }
+
+/* ================== HERO TEXT ================== */
+#title .hello{
+  font-size: 3vw;
+  font-size: calc(22px + 2vw);
+  font-weight: bolder;
+  color: var(--white);
+  background-color: var(--blue);
+  width: max-content;
+  margin: 1% 0 5% 12%;
+  height: 1.3em;
+  padding: 0 0.8rem;
+  z-index: 2;
+}
+
+#title .iam{
+  font-size: 6vw;
+  font-size: calc(30px + 4vw);
+  font-weight: bolder;
+  color: var(--white);
+  background-color: var(--blue);
+  width: max-content;
+  padding: 0 0.8rem;
+  margin: 20px 0 0 12%;
+  height: 1.3em;
+  z-index: 2;
+}
+
+#title .nina{
+  font-size: 9vw;
+  font-size: calc(40px + 6vw);
+  font-weight: 800;
+  color: var(--blue);
+  background-color: var(--white);
+  width: max-content;
+  margin: 20px 0 0 12%;
+  padding: 0 0.8rem;
+  z-index: 1;
+  border: 3px solid var(--blue);
+}
+
+/* ================== HERO ARTWORK ================== */
+#title .ani{
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+}
+
+#title .ani-img{
+  width: 110vw;
+  object-fit: contain;
+  position: relative;
+  right: -60px;
+  bottom: -40px;
+}
+
+/* ================== UTILITIES ================== */
+.divider{ height: 2vh; }
+
+/* ================== MOBILE ================== */
+@media (max-width: 560px) and (min-height: 6px){
+  #title .ani{ position: absolute; bottom: 0; left: -50%; }
+  #title .ani-img{ width: 200vw; object-fit: contain; right: 60px; }
+  #title .container-grid > *{ margin-left: 6%; }
+}

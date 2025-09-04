@@ -1,0 +1,58 @@
+body{
+    --blue: #091057;
+    --white: #ffe1e2;
+}
+
+.works iframe{
+    overflow: hidden;
+    width: 80vw;
+    height: 45vw;
+}
+
+.works img, .works .carousel{
+    overflow: hidden;
+    width: 80vw;
+}
+.works {
+    margin: 1% 0px 18% 10vw;
+}
+
+.main-title{
+    margin: 1% 0px 7% 10vw;
+
+}
+
+.works .tit{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: var(--blue);
+
+
+}
+
+.works .sub{
+    font-style: italic;
+    color: var(--blue);
+    padding-right: 4vw;
+}
+
+.main-title h1{
+    font-size: 7vw;
+    font-weight: 200;
+    letter-spacing: 0.4em;
+    color: var(--blue);
+    width: fit-content;
+}
+
+hr{
+    width: 60vw;
+}
+
+.works a{
+    text-decoration: var(--blue)underline;
+}
+
+.works a:hover{
+    opacity: 0.7;
+}
