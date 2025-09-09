@@ -6,7 +6,7 @@ export default function WebProjects() {
 
       <section className="main-title">
         <h1>
-          WEB DEV <br /> PROJECTS
+          SOFTWARE PROJECTS
         </h1>
         <hr />
       </section>

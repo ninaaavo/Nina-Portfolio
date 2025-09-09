@@ -30,9 +30,8 @@ export default function Home() {
       {/* Web Dev / Programmer */}
       <section className="mid">
         <div className="a-box programmer">
-          <p className="tit">WEB DEV // PROGRAMMER</p>
-          <p className="sub-tit"> Java // Javascript // Python //<br /> HTML // CSS </p>
-          <a href="/web"><button type="button">My Web Dev Projects</button></a>
+          <p className="tit">SOFTWARE ENGINEER</p>
+          <a href="/web"><button type="button">My Software Projects</button></a>
         </div>
         <img src="/final-imgs/code.png" className="back" />
         <div className="opacity"></div>
