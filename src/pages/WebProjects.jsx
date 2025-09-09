@@ -20,9 +20,9 @@ export default function WebProjects() {
           "Implemented state management algorithms for profit/loss calculations using historical snapshots and automated API integrations, ensuring 100% consistency in trade tracking and saving hours of manual data entry per week.",
           "Architected a modular UI system with draggable dashboards, timeline visualizations, and dynamic filters using dnd-kit and Framer Motion, allowing users to tailor layouts to their preferences and improve insight-retrieval speed by 40%.",
         ]}
-        linkHref="https://investing-journal.vercel.app/"
-        linkLabel="https://investing-journal.vercel.app/"
-        embedSrc="https://www.youtube.com/embed/x3CsiUeYQfo?si=j41CNZqYGAIDUAyB"
+        linkHref="https://investlog-seven.vercel.app/"
+        linkLabel="https://investlog-seven.vercel.app/"
+        embedSrc="https://www.youtube.com/embed/MiSSc2lwM9I?si=JRtAWEBgxtWmyeaj"
         embedTitle="InvestLog"
       />
 
