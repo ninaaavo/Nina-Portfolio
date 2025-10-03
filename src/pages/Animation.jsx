@@ -40,6 +40,23 @@ export default function Animation() {
         </div>
       </section>
 
+      <section className="works another-morning">
+        <div className="text">
+          <p className="tit">Roller Coaster (2025)</p>
+          <p className="sub">
+            Motion graphics about roller coaster
+          </p>
+        </div>
+        <div className="container-iframe">
+          <iframe
+            className="responsive-iframe"
+            src="https://www.youtube.com/embed/fVAODZrU93I?si=Kke6IuAz4hJW6Bgn"
+            allowFullScreen
+            title="Roller Coaster"
+          />
+        </div>
+      </section>
+
       <section className="works walk-cycle">
         <div className="text">
           <p className="tit">Stella&apos;s Walk Cycle (2024)</p>
@@ -57,7 +74,7 @@ export default function Animation() {
         </div>
       </section>
 
-      <section className="works lip-sync">
+      {/* <section className="works lip-sync">
         <div className="text">
           <p className="tit">Good Boy (2024)</p>
           <p className="sub">A short lip sync video</p>
@@ -70,7 +87,7 @@ export default function Animation() {
             title="Good Boy"
           />
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
