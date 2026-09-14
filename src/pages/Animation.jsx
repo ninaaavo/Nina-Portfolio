@@ -39,6 +39,24 @@ export default function Animation() {
           />
         </div>
       </section>
+      
+
+      <section className="works another-morning">
+        <div className="text">
+          <p className="tit">A Happy Life (2026)</p>
+          <p className="sub">
+            Stop Motion animation about little Pinny's life.
+          </p>
+        </div>
+        <div className="container-iframe">
+          <iframe
+            className="responsive-iframe"
+            src="https://www.youtube.com/embed/1HtuIjmO8_8?si=yKjyO-GCW3TiwGI0"
+            allowFullScreen
+            title="A Happy Life"
+          />
+        </div>
+      </section>
 
       <section className="works another-morning">
         <div className="text">
@@ -53,6 +71,22 @@ export default function Animation() {
             src="https://www.youtube.com/embed/fVAODZrU93I?si=Kke6IuAz4hJW6Bgn"
             allowFullScreen
             title="Roller Coaster"
+          />
+        </div>
+      </section>
+      <section className="works another-morning">
+        <div className="text">
+          <p className="tit">Amidst the Cloud (2025)</p>
+          <p className="sub">
+            3D animation
+          </p>
+        </div>
+        <div className="container-iframe">
+          <iframe
+            className="responsive-iframe"
+            src="https://www.youtube.com/embed/gjez-Nso8eg?si=ppkd83lM_OdJ4Jcl"
+            allowFullScreen
+            title="Amidst the Cloud"
           />
         </div>
       </section>
