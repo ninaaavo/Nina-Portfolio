@@ -8,6 +8,7 @@ import Illustration from "./pages/Illustration.jsx";
 import Model3D from "./pages/Model3D.jsx";
 import Contact from "./pages/Contact.jsx";
 import WebProjects from "./pages/WebProjects.jsx";
+import Hello from "./pages/Hello.jsx";
 
 export default function App() {
   const location = useLocation();
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/model" element={<Model3D />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/web" element={<WebProjects />} />
+        <Route path="/hello" element={<Hello />} />
       </Routes>
 
       <Footer />
