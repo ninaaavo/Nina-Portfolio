@@ -24,7 +24,7 @@ function changeIntruder() {
 
 function setup() {
   // createCanvas(580, 530);
-  canvasWidth = windowWidth * 0.4
+  canvasWidth = windowWidth
   canvasHeight = canvasWidth / 580 * 530
   createCanvas(canvasWidth, canvasHeight)
   multiplyRatio = canvasWidth / 580

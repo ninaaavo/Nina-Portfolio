@@ -70,6 +70,25 @@ export default function Home() {
 
       <div className="divider"></div>
 
+      {/* Generative Artist */}
+      <section className="mid">
+        <div className="a-box">
+          <p className="tit">GENERATIVE ARTIST</p>
+          <a href="/generative"><button type="button">My Generative Art</button></a>
+        </div>
+          <video
+            src="/final-imgs/pixel_vid.mp4"
+            className="back"
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
+        <div className="opacity"></div>
+      </section>
+
+      <div className="divider"></div>
+
       {/* 3D Modeler */}
       <section className="mid">
         <div className="a-box">

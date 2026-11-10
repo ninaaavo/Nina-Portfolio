@@ -10,7 +10,7 @@ import "./styles/style-about.css";
 import "./styles/style-footer.css";
 import "./styles/style-ani.css";
 import "./styles/style-contact.css";
-import "./styles/style-hello.css";
+import "./styles/style-generative.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
